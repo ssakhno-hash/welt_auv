@@ -1,0 +1,14 @@
+# QoS-профили для подписки rosbag2 на топики камер.
+# usb_cam публикует изображения с BEST_EFFORT — иначе bag не подхватит их.
+/camera_laptop/image_raw:
+  history: keep_last
+  depth: 10
+  reliability: best_effort
+  durability: volatile
+
+/camera_laptop/camera_info:
+  history: keep_last
+  depth: 10
+  reliability: best_effort
+  durability: volatile
+

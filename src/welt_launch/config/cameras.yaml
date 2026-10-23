@@ -1,0 +1,11 @@
+cameras:
+  laptop:
+    device: "/dev/video0"
+    frame_id: "camera_laptop_optical_frame"
+    namespace: "/camera_laptop"
+    image_topic: "image_raw"
+    camera_info_topic: "camera_info"
+    pixel_format: "yuyv"
+    image_width: 640
+    image_height: 480
+    framerate: 30.0
