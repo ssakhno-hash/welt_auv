@@ -1,5 +1,4 @@
-# welt_auv
-Stingray powered AUV Welt
+
 
 ## Отчет по заданию: Запуск камер и запись данных для Computer Vision
 
